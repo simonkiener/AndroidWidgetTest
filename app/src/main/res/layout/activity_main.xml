@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_counter_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/counter_1">
+    </Button>
+
+    <Button
+        android:id="@+id/button_counter_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/counter_2">
+    </Button>
+
+    <Button
+        android:id="@+id/button_counter_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/counter_3">
+    </Button>
+
+    <Button
+        android:id="@+id/button_counter_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/counter_4">
+    </Button>
+
+    <TextView
+        android:id="@+id/textview_counter_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:textSize="30sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textview_counter_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:textSize="30sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textview_counter_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:textSize="30sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textview_counter_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:textSize="30sp">
+    </TextView>
+</LinearLayout>
